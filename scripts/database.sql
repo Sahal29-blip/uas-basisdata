@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS admin_users (
 INSERT INTO admin_users (username, password) VALUES 
 ('admin', '$2y$10$DPkL4CBGPSNSen4ZgzPYYOR9RUcU0dCFaIpFUl9Uy/u5LcFDTH6F6');
 
--- Insert data dummy untuk simulasi
+-- Memasukkan data dummy untuk simulasi
 INSERT INTO sensor_data (timestamp, temperature, humidity, motion_detected) VALUES 
 ('2025-01-08 14:00:00', 25.5, 60.2, 1),
 ('2025-01-08 14:05:00', 25.8, 59.8, 0),
